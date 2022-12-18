@@ -81,6 +81,7 @@ def parse_file(filename):
                     res[i] -= 1
         print( sum(res.values()))
 
-parse_file("test.txt")
-parse_file("input.txt")
+if __name__ == '__main__':
+    parse_file("test.txt")
+    parse_file("input.txt")
 
